@@ -50,7 +50,7 @@ read -p "Enter the name of the python file name (without .py): " file_name
 base_dir="/home/jonas/Development/Projects/100DaysOfCode/src"
 
 #constrcut full path
-project_dir="$base_dir/$project_name/sln01"
+project_dir="$base_dir/$project_name"
 python_file="$project_dir/$file_name.py"
 
 #Create the project dir if not exist
